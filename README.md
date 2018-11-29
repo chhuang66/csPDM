@@ -21,4 +21,4 @@ These codes are the implementations of colored-synapse population density method
 - initialize a new simulation: <code>aEIFONETHREE_semiLocal -I [Options] filename </code>
 - run simulations: <code>aEIFONETHREE_semiLocal -R+time filename </code>
 
-One example of how to run simulation with aEIFONETHREE_semiLocal is listed in *examples* folder, which is written in python interface.
+One example of how to run simulation with **aEIFONETHREE_semiLocal** is listed in *examples* folder, which is written in python interface.
