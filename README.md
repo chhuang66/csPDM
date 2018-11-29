@@ -10,7 +10,11 @@ These codes are the implementations of colored-synapse population density method
 2. Use the following commands to compile the codes
 *  <code>cmake ..</code>
 *  <code>make</code>
-3. Finally, a program, named by _aEIFTHREE_semiLocal_ is built.
+3. Finally, a program, named by _aEIFONETHREE_semiLocal_ is built.
 
 ### Usages
-- help: <code>aEIFTHREE_semiLocal --help</code>
+- help: <code>aEIFONETHREE_semiLocal --help</code>
+- check external input sources available: <code>aEIFONETHREE_semiLocal -ihelp</code>
+- check connections available: <code>aEIFONETHREE_semiLocal -chelp</code>
+- check neuronal parameters available: <code>aEIFONETHREE_semiLocal --PYparam=help</code>
+- check simulation parameters available: <code>aEIFONETHREE_semiLocal -phelp</code>
