@@ -18,3 +18,4 @@ These codes are the implementations of colored-synapse population density method
 - check connections available: <code>aEIFONETHREE_semiLocal -chelp</code>
 - check neuronal parameters available: <code>aEIFONETHREE_semiLocal --PYparam=help</code>
 - check simulation parameters available: <code>aEIFONETHREE_semiLocal -phelp</code>
+- initialize a new simulation: <code>aEIFONETHREE_semiLocal -I [Options] filename </code>
