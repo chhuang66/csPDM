@@ -11,4 +11,4 @@ This implementaion is written by C++ and is compiled by the g++6.3 with cmake3.7
 3. Finally, a program, named by _aEIFTHREE_semiLocal_ is built.
 
 ### Usages
-- df
+- help: <code>aEIFTHREE_semiLocal --help</code>
