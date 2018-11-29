@@ -3,5 +3,12 @@ These codes are the implementations of colored-synapse population density method
 
 This implementaion is written by C++ and is compiled by the g++6.3 with cmake3.7. The required libraries are "hdf5" for storing simulation results, "blas" and "lapacke" for numerical solving ODEs through the backward Euler method. The compiled program has been tested in the linux OS environment and runs well, but has not been tested in the MS environment.
 
-### Usage
+### Compilation
+1. Create a new sub-directory, e.g., build, in the root directory, and move to this sub-directory.
+2. Use the following commands to compile the codes
+*  <code>cmake ..</code>
+*  <code>make</code>
+3. Finally, a program, named by _aEIFTHREE_semiLocal_ is built.
 
+### Usages
+- df
