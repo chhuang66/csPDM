@@ -55,6 +55,7 @@ param = "--PYparam=a={},b={},tauw={},C={}.Gl={},Vr={},Vl={},Dt={},Vc={},Vt={},Vl
 conn = "-cextAMP={},extGABAa={},extGABAb={}".format(extAMPA,extGABAa,extGABAb)
 
 # run simulation of 3 seconds
+# the input rates are stored in input.txt where the first column is for AMPA, the second one for GABAa, and the third one for GABAb
 os.system('aEIFONETHREE_semiLocal -R+3000 -ptime_step={} {} {} --ext_inFile=input.txt {}'.format(time_step,conn,param,fname))
 
 
